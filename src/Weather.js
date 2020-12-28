@@ -25,8 +25,8 @@ export default function Weather() {
       </form>
       <h1>Seattle</h1>
       <ul>
-        <li>Friday 12:00</li>
-        <li>Cloudy</li>
+        <li className="dayTime">Friday 12:00</li>
+        <li className="skyStatus">Cloudy</li>
       </ul>
       <div className="row mt-3">
         <div className="col-6">
@@ -44,9 +44,9 @@ export default function Weather() {
         </div>
         <div className="col-6">
           <ul>
-            <li>Precipitation: 69%</li>
-            <li>Humidity: 100%</li>
-            <li>Wind: 5 km/h</li>
+            <li className="precipitation">Precipitation: 69%</li>
+            <li className="humidity"> Humidity: 100%</li>
+            <li className="windSpeed">Wind: 5 km/h</li>
           </ul>
         </div>
       </div>
